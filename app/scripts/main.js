@@ -21,6 +21,7 @@ function callfullpage() {
 		// slidesColor: ['#19AEEE', '#19AEEE', '#19AEEE', '#19AEEE', '#19AEEE'],
 		anchors: ['hjmdown', 'page2', 'page3', 'page4', 'page5'],
 		// loopBottom: true,
+		loopHorizontal: false,
 		slidesNavigation: true,
 		slidesNavPosition: "top",
 		scrollOverflow: bscroll,
