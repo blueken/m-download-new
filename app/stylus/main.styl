@@ -22,11 +22,51 @@ body
 p 
     color #747474
 
+/*full page css custom begin*/
+.slide
+    background -webkit-gradient(linear, top left, bottom left, from(#19AEEE), to(#51C3EB))
+    background -webkit-linear-gradient(#19AEEE, #51C3EB)
+    background linear-gradient(#19AEEE,#51C3EB)
+.controlArrow
+    top 33%
+    
+.controlArrow.next
+    // border-color transparent transparent transparent #FF0000
+    width 32px
+    height 129px
+    border-width 0
+    background url("../images/arrow.png")
+    transform rotate(180deg)
+    zoom 0.5
+
+.controlArrow.prev
+    // border-color transparent #FF0000 transparent transparent 
+    width 32px
+    height 129px
+    border-width 0
+    background url("../images/arrow.png")
+    zoom 0.5
+
+.fullPage-slidesNav.top
+    top 243px
+
+#fullPage-nav span, .fullPage-slidesNav span
+    background rgba(255, 255, 255, 0.5)
+    border-width 0
+    width 10px
+    height 10px
+#fullPage-nav li .active span, .fullPage-slidesNav .active span
+    background rgba(255, 255, 255, 1)
+/*full page css custom end*/
+
 .wrapper
     width 100%
     max-width 640px 
     // background-color gold
+    min-height 920px
     margin 0 auto
+    background -webkit-linear-gradient(top, #19AEEE, #51C3EB)
+    background: -webkit-linear-gradient(top, #2F2727, #1a82f7);
     zoom 0.5
 .header
     width 100%
@@ -58,7 +98,7 @@ p
 .footer
     width 100%
     max-width 640px
-    min-height 440px
+    min-height 920px
     background-color white
     position relative
     top -240px

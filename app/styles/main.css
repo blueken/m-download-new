@@ -21,10 +21,52 @@ body {
 p {
   color: #747474;
 }
+/*full page css custom begin*/
+.slide {
+  background: -webkit-gradient(linear, top left, bottom left, from(#19aeee), to(#51c3eb));
+  background: -webkit-linear-gradient(#19aeee, #51c3eb);
+  background: linear-gradient(#19aeee, #51c3eb);
+}
+.controlArrow {
+  top: 33%;
+}
+.controlArrow.next {
+  width: 32px;
+  height: 129px;
+  border-width: 0;
+  background: url("../images/arrow.png");
+  transform: rotate(180deg);
+  zoom: 0.5;
+}
+.controlArrow.prev {
+  width: 32px;
+  height: 129px;
+  border-width: 0;
+  background: url("../images/arrow.png");
+  zoom: 0.5;
+}
+.fullPage-slidesNav.top {
+  top: 243px;
+}
+#fullPage-nav span,
+.fullPage-slidesNav span {
+  background: rgba(255,255,255,0.5);
+  border-width: 0;
+  width: 10px;
+  height: 10px;
+}
+#fullPage-nav li .active span,
+.fullPage-slidesNav .active span {
+  background: #fff;
+}
+/*full page css custom end*/
 .wrapper {
   width: 100%;
   max-width: 640px;
+  min-height: 920px;
   margin: 0 auto;
+  background: -webkit-linear-gradient(top, #19aeee, #51c3eb);
+  background: -webkit-linear-gradient(top, #2f2727, #1a82f7);
   zoom: 0.5;
 }
 .header {
@@ -60,7 +102,7 @@ p {
 .footer {
   width: 100%;
   max-width: 640px;
-  min-height: 440px;
+  min-height: 920px;
   background-color: #fff;
   position: relative;
   top: -240px;
