@@ -1,16 +1,29 @@
-$(function() {
-	callfullpage();
-	weixinurl();
-});
+function bindEvents() {
+	$(window).bind("orientationchange", function() {
+		g_timeout_handler = setTimeout(function() {
+			location.reload();
+		},300);
+	})
 
+
+}
+function calcDotsPos() {
+	var dotsbgy = ($(".dots_bg").offset()).top;
+	console.log("dotsbgy:"+dotsbgy);
+	dotsbgy = dotsbgy * 0.5 - 6;
+	$(".fullPage-slidesNav.top").css("top", dotsbgy+"px");
+}
 function callfullpage() {
+	var bscroll = ($(window).width() > $(window).height()) ? true : false;
+	bscroll = false;
 	$("#bob").fullpage({
 		css3: true,
 		// slidesColor: ['#19AEEE', '#19AEEE', '#19AEEE', '#19AEEE', '#19AEEE'],
-		anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
-		loopBottom: true,
+		anchors: ['hjmdown', 'page2', 'page3', 'page4', 'page5'],
+		// loopBottom: true,
 		slidesNavigation: true,
 		slidesNavPosition: "top",
+		scrollOverflow: bscroll,
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
 			console.log(anchorLink, index, slideAnchor, slideIndex);
 			if(slideIndex == 2){
@@ -19,10 +32,20 @@ function callfullpage() {
 		},
 		onSlideLeave: function(anchorLink, index, slideIndex, direction){
 
+		},
+		afterRender: function() {
+			
+			setTimeout(function() {
+				calcDotsPos();
+			}, 300);
+			
 		}
 
 
 	});
+
+
+	
 }
 function weixinurl() {
 	if (!isWeiXin()) {

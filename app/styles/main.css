@@ -36,6 +36,7 @@ p {
   border-width: 0;
   background: url("../images/arrow.png");
   transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
   zoom: 0.5;
 }
 .controlArrow.prev {
@@ -46,7 +47,7 @@ p {
   zoom: 0.5;
 }
 .fullPage-slidesNav.top {
-  top: 243px;
+  top: 920px;
 }
 #fullPage-nav span,
 .fullPage-slidesNav span {
@@ -62,24 +63,22 @@ p {
 /*full page css custom end*/
 .wrapper {
   width: 100%;
-  max-width: 640px;
+  max-width: 800px;
   min-height: 920px;
   margin: 0 auto;
-  background: -webkit-linear-gradient(top, #19aeee, #51c3eb);
-  background: -webkit-linear-gradient(top, #2f2727, #1a82f7);
+  background: #19aeee;
   zoom: 0.5;
 }
 .header {
   width: 100%;
   min-height: 85px;
-  margin: 0 auto;
-  margin: 48px auto;
+  margin: 7.5% auto;
   overflow: hidden;
 }
 .header img {
   float: left;
-  margin-right: 32px;
-  margin-left: 176px;
+  margin-right: 5%;
+  margin-left: 27.5%;
 }
 .header h2 {
   font-size: 32px;
@@ -92,6 +91,7 @@ p {
 .content {
   width: 100%;
   max-width: 640px;
+  margin: 0 auto;
 }
 .content .icon_ios {
   margin-left: 8.4%;
@@ -101,19 +101,23 @@ p {
 }
 .footer {
   width: 100%;
-  max-width: 640px;
-  min-height: 920px;
+  min-height: 700px;
   background-color: #fff;
   position: relative;
   top: -240px;
 }
 .footer .dots_bg {
   width: 100%;
-  height: 3.59%;
-  min-height: 33px;
+  height: 3.47%;
+  min-height: 32px;
   background: url("../images/dots_bg.png");
 }
-.footer .down {
+.footer .inner_foot {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.footer .inner_foot .down {
   width: 273px;
   height: 81px;
   display: inline-block;
@@ -122,7 +126,7 @@ p {
   margin-left: 32px;
   margin-bottom: 10px;
 }
-.footer .down .line {
+.footer .inner_foot .down .line {
   display: inline-block;
   width: 180px;
   height: 30px;
@@ -130,25 +134,25 @@ p {
   font-size: 20px;
   color: #fff;
 }
-.footer .down .line1 {
+.footer .inner_foot .down .line1 {
   margin-top: 12px;
 }
-.footer .down .line2 {
+.footer .inner_foot .down .line2 {
   margin-top: 0px;
 }
-.footer .down_ios {
+.footer .inner_foot .down_ios {
   background: url("../images/ios_btn.png");
 }
-.footer .down_and {
+.footer .inner_foot .down_and {
   background: url("../images/and_btn.png");
 }
-.footer p {
+.footer .inner_foot p {
   width: 100%;
   font-size: 24px;
   margin-bottom: 24px;
   padding-left: 152px;
 }
-.footer p:before {
+.footer .inner_foot p:before {
   content: " ";
   display: inline-block;
   width: 14px;
