@@ -1,0 +1,8 @@
+{
+  "name": "m-download-new",
+  "private": true,
+  "dependencies": {
+    "fullPage.js": "~2.0.7"
+  },
+  "devDependencies": {}
+}
