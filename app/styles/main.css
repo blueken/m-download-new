@@ -23,14 +23,9 @@ p {
 }
 /*full page css custom begin*/
 .slide {
-  background: #19aeee; /* for non-css3 browsers */
-
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#19aeee', endColorstr='#FFFFFF'); /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(#19aeee), to(#FFFFFF)); /* for webkit browsers */
+  background: -webkit-gradient(linear, top left, bottom left, from(#19aeee), to(#51c3eb));
   background: -webkit-linear-gradient(#19aeee, #51c3eb);
-  background: linear-gradient(#19aeee, #FFFFFF);
-  background: -moz-linear-gradient(top,  #19aeee,  #FFFFFF); /* for firefox 3.6+ */
-  
+  background: linear-gradient(#19aeee, #51c3eb);
 }
 .controlArrow {
   top: 33%;
@@ -84,14 +79,6 @@ p {
   margin-right: 5%;
   margin-left: 27.5%;
 }
-.header h2 {
-  font-size: 32px;
-  margin: 6px auto;
-}
-.header p {
-  color: #fff;
-  margin-top: 0;
-}
 .content {
   width: 100%;
   max-width: 640px;
@@ -120,6 +107,7 @@ p {
   width: 100%;
   max-width: 640px;
   margin: 0 auto;
+  text-align: center;
 }
 .footer .inner_foot .down {
   width: 273px;
@@ -128,40 +116,8 @@ p {
   text-decoration: none;
   margin-top: 32px;
   margin-left: 32px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
-.footer .inner_foot .down .line {
-  display: inline-block;
-  width: 180px;
-  height: 30px;
-  margin-left: 80px;
-  font-size: 20px;
-  color: #fff;
-}
-.footer .inner_foot .down .line1 {
-  margin-top: 12px;
-}
-.footer .inner_foot .down .line2 {
-  margin-top: 0px;
-}
-.footer .inner_foot .down_ios {
-  background: url("../images/ios_btn.png");
-}
-.footer .inner_foot .down_and {
-  background: url("../images/and_btn.png");
-}
-.footer .inner_foot p {
-  width: 100%;
-  font-size: 24px;
-  margin-bottom: 24px;
-  padding-left: 152px;
-}
-.footer .inner_foot p:before {
-  content: " ";
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  background-color: #f9a825;
-  border-radius: 7px;
-  margin-right: 25px;
+.footer .inner_foot .desc {
+  height: 150px;
 }
