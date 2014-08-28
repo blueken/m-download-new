@@ -3,16 +3,16 @@ function bindEvents() {
 		g_timeout_handler = setTimeout(function() {
 			location.reload();
 		},300);
-	})
+	});
 
 
-}
+};
 function calcDotsPos() {
 	var dotsbgy = ($(".dots_bg").offset()).top;
 	console.log("dotsbgy:"+dotsbgy);
 	dotsbgy = dotsbgy * 0.5 - 6;
 	$(".fullPage-slidesNav.top").css("top", dotsbgy+"px");
-}
+};
 function callfullpage() {
 	var bscroll = ($(window).width() > $(window).height()) ? true : false;
 	bscroll = false;
@@ -47,18 +47,18 @@ function callfullpage() {
 
 
 	
-}
+};
 function weixinurl() {
 	if (!isWeiXin()) {
 		var no_weixin_url = $(".down_and").attr("href-nowx");
 		$(".down_and").attr("href", no_weixin_url);
 	};
-}
+};
 function isWeiXin() {
     var ua = window.navigator.userAgent.toLowerCase();
     if(ua.match(/MicroMessenger/i) == 'micromessenger'){
         return true;
     }else{
         return false;
-    }
-}
+    };
+};
