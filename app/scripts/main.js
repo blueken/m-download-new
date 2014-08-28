@@ -1,39 +1,39 @@
 function bindEvents() {
-	$(window).bind("orientationchange", function() {
-		g_timeout_handler = setTimeout(function() {
+	'use strict';
+	$(window).bind('orientationchange', function() {
+		setTimeout(function() {
 			location.reload();
 		},300);
 	});
 
 
-};
+}
 function calcDotsPos() {
-	var dotsbgy = ($(".dots_bg").offset()).top;
-	console.log("dotsbgy:"+dotsbgy);
+	'use strict';
+	var dotsbgy = ($('.dots_bg').offset()).top;
+	console.log('dotsbgy:'+dotsbgy);
 	dotsbgy = dotsbgy * 0.5 - 6;
-	$(".fullPage-slidesNav.top").css("top", dotsbgy+"px");
-};
+	$('.fullPage-slidesNav.top').css('top', dotsbgy+'px');
+}
 function callfullpage() {
+	'use strict';
 	var bscroll = ($(window).width() > $(window).height()) ? true : false;
 	bscroll = false;
-	$("#bob").fullpage({
+	$('#bob').fullpage({
 		css3: true,
 		// slidesColor: ['#19AEEE', '#19AEEE', '#19AEEE', '#19AEEE', '#19AEEE'],
 		anchors: ['hjmdown', 'page2', 'page3', 'page4', 'page5'],
 		// loopBottom: true,
 		loopHorizontal: false,
 		slidesNavigation: true,
-		slidesNavPosition: "top",
+		slidesNavPosition: 'top',
 		scrollOverflow: bscroll,
-		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
-			console.log(anchorLink, index, slideAnchor, slideIndex);
-			if(slideIndex == 2){
-			  
-			}
-		},
-		onSlideLeave: function(anchorLink, index, slideIndex, direction){
-
-		},
+		// afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
+		// 	console.log(anchorLink, index, slideAnchor, slideIndex);
+		// },
+		// onSlideLeave: function(anchorLink, index, slideIndex, direction){
+		// 	console.log(anchorLink, index, slideIndex, direction)
+		// },
 		afterRender: function() {
 			
 			setTimeout(function() {
@@ -47,18 +47,28 @@ function callfullpage() {
 
 
 	
-};
-function weixinurl() {
-	if (!isWeiXin()) {
-		var no_weixin_url = $(".down_and").attr("href-nowx");
-		$(".down_and").attr("href", no_weixin_url);
-	};
-};
+}
 function isWeiXin() {
+	'use strict';
     var ua = window.navigator.userAgent.toLowerCase();
-    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+    if(ua.match(/MicroMessenger/i) === 'micromessenger'){
         return true;
     }else{
         return false;
-    };
-};
+    }
+}
+function weixinurl() {
+	'use strict';
+	if (!isWeiXin()) {
+		var noWeixinUrl = $('.down_and').attr('href-nowx');
+		$('.down_and').attr('href', noWeixinUrl);
+	}
+}
+
+$(function() {
+	'use strict';
+    callfullpage();
+
+    weixinurl();
+    bindEvents();
+});
