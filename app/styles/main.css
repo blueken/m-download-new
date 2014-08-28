@@ -23,9 +23,14 @@ p {
 }
 /*full page css custom begin*/
 .slide {
-  background: -webkit-gradient(linear, top left, bottom left, from(#19aeee), to(#51c3eb));
+  background: #19aeee; /* for non-css3 browsers */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#19aeee', endColorstr='#FFFFFF'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#19aeee), to(#FFFFFF)); /* for webkit browsers */
   background: -webkit-linear-gradient(#19aeee, #51c3eb);
-  background: linear-gradient(#19aeee, #51c3eb);
+  background: linear-gradient(#19aeee, #FFFFFF);
+  background: -moz-linear-gradient(top,  #19aeee,  #FFFFFF); /* for firefox 3.6+ */
+  
 }
 .controlArrow {
   top: 33%;

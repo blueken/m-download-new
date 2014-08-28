@@ -11,7 +11,6 @@ function bindEvents() {
 function calcDotsPos() {
 	'use strict';
 	var dotsbgy = ($('.dots_bg').offset()).top;
-	console.log('dotsbgy:'+dotsbgy);
 	dotsbgy = dotsbgy * 0.5 - 6;
 	$('.fullPage-slidesNav.top').css('top', dotsbgy+'px');
 }
