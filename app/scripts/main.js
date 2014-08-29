@@ -55,9 +55,12 @@ function isWeiXin() {
 }
 function weixinurl() {
 	'use strict';
+
 	if (!isWeiXin()) {
-		var noWeixinUrl = $('.down_and').attr('href-nowx');
-		$('.down_and').attr('href', noWeixinUrl);
+		$('.down_and').each(function() {
+			var noWeixinUrl = $(this).attr('href-nowx');
+			$(this).attr('href', noWeixinUrl);
+		});
 	}
 }
 
