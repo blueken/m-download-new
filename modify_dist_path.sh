@@ -1,0 +1,1 @@
+sed -i -e 's/images\//\/app\/zt\/apps\/images\//g' -e 's/scripts\//\/app\/zt\/apps\/scripts\//g' -e 's/styles\//\/app\/zt\/apps\/styles\//g' dist/index.html
