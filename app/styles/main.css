@@ -22,12 +22,6 @@ p {
   color: #747474;
 }
 /*full page css custom begin*/
-.slide {
-  background: #19aeee;
-  background: -webkit-gradient(linear, top left, bottom left, from(#19aeee), to(#51c3eb));
-  background: -webkit-linear-gradient(#19aeee, #51c3eb);
-  background: linear-gradient(#19aeee, #51c3eb);
-}
 .controlArrow {
   top: 33%;
 }
@@ -62,63 +56,54 @@ p {
   background: #fff;
 }
 /*full page css custom end*/
+/* sprites css start */
+.and,
+.dots_bg,
+.icon_cctalk,
+.icon_hjwx,
+.icon_hjxd,
+.icon_kxcc,
+.ios,
 .wrapper {
-  width: 100%;
-  max-width: 800px;
-  min-height: 920px;
-  margin: 0 auto;
-  zoom: 0.5;
-}
-.header {
-  width: 100%;
-  min-height: 85px;
-  margin: 7.5% auto;
-  overflow: hidden;
-}
-.header img {
-  float: left;
-  margin-right: 5%;
-  margin-left: 27.5%;
-}
-.content {
-  width: 100%;
-  max-width: 640px;
-  margin: 0 auto;
-}
-.content .icon_ios {
-  margin-left: 8.4%;
-}
-.content .icon_and {
-  margin-left: 2.5%;
-}
-.footer {
-  width: 100%;
-  min-height: 700px;
-  background-color: #fff;
   position: relative;
-  top: -240px;
-}
-.footer .dots_bg {
   width: 100%;
-  height: 3.47%;
-  min-height: 32px;
-  background: url("../images/dots_bg.png");
+  padding-bottom: 143.7%;
 }
-.footer .inner_foot {
+.and .aspect,
+.dots_bg .aspect,
+.icon_cctalk .aspect,
+.icon_hjwx .aspect,
+.icon_hjxd .aspect,
+.icon_kxcc .aspect,
+.ios .aspect,
+.wrapper .aspect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.and .aspect .header,
+.dots_bg .aspect .header,
+.icon_cctalk .aspect .header,
+.icon_hjwx .aspect .header,
+.icon_hjxd .aspect .header,
+.icon_kxcc .aspect .header,
+.ios .aspect .header,
+.wrapper .aspect .header {
   width: 100%;
-  max-width: 640px;
-  margin: 0 auto;
-  text-align: center;
+  height: 8.7%;
+  margin-top: 7.03%;
+  background-color: #ffd700;
 }
-.footer .inner_foot .down {
-  width: 273px;
-  height: 81px;
-  display: inline-block;
-  text-decoration: none;
-  margin-top: 32px;
-  margin-left: 32px;
-  margin-bottom: 50px;
-}
-.footer .inner_foot .desc {
-  height: 150px;
+.and .aspect .header img,
+.dots_bg .aspect .header img,
+.icon_cctalk .aspect .header img,
+.icon_hjwx .aspect .header img,
+.icon_hjxd .aspect .header img,
+.icon_kxcc .aspect .header img,
+.ios .aspect .header img,
+.wrapper .aspect .header img {
+  height: 100%;
 }

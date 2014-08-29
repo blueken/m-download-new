@@ -1,0 +1,46 @@
+.and, .dots_bg, .icon_cctalk, .icon_hjwx, .icon_hjxd, .icon_kxcc, .ios{
+	background: url(sprites.png) no-repeat;
+}
+
+.and{
+	background-position: 0 -50px ;
+	width: 44px;
+	height: 49px;
+}
+
+.dots_bg{
+	background-position: 0 0;
+	width: 640px;
+	height: 33px;
+}
+
+.icon_cctalk{
+	background-position: -250px -50px ;
+	width: 80px;
+	height: 80px;
+}
+
+.icon_hjwx{
+	background-position: -350px -50px ;
+	width: 80px;
+	height: 80px;
+}
+
+.icon_hjxd{
+	background-position: -450px -50px ;
+	width: 80px;
+	height: 80px;
+}
+
+.icon_kxcc{
+	background-position: -150px -50px ;
+	width: 80px;
+	height: 80px;
+}
+
+.ios{
+	background-position: -50px -50px ;
+	width: 42px;
+	height: 49px;
+}
+
