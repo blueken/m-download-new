@@ -23,6 +23,7 @@ p {
 }
 /*full page css custom begin*/
 .slide {
+  background: #19aeee;
   background: -webkit-gradient(linear, top left, bottom left, from(#19aeee), to(#51c3eb));
   background: -webkit-linear-gradient(#19aeee, #51c3eb);
   background: linear-gradient(#19aeee, #51c3eb);
