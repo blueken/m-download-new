@@ -11,8 +11,8 @@ function bindEvents() {
 function calcDotsPos() {
 	'use strict';
 	var dotsbgy = ($('.dots_bg').offset()).top;
-	dotsbgy = dotsbgy * 0.5 - 6;
-	$('.fullPage-slidesNav.top').css('top', dotsbgy+'px');
+	// dotsbgy = dotsbgy * 0.5 - 6;
+	$('.fp-slidesNav.top').css('top', dotsbgy+'px');
 }
 function callfullpage() {
 	'use strict';
@@ -60,14 +60,14 @@ function weixinurl() {
 		$('.down_and').each(function() {
 			var noWeixinUrl = $(this).attr('href-nowx');
 			$(this).attr('href', noWeixinUrl);
-		});
+		});	
 	}
 }
 
 $(function() {
 	'use strict';
     callfullpage();
-
+    calcDotsPos();
     weixinurl();
     bindEvents();
 });

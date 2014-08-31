@@ -1,7 +1,10 @@
+html
+  font-size 62.5%
 body
-  background #fafafa
+  background #333
   font-family "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei",  "SimSun"
-  color #FFF
+  
+  color #FFF  
 
 
 .hero-unit
@@ -18,9 +21,14 @@ body
     line-height 1
     letter-spacing -1px
 
-
-p 
-    color #747474
+/*function begin*/
+transform()
+  transform arguments
+  -webkit-transform arguments
+  -moz-transform arguments
+  -o-transform arguments
+  -ms-transform arguments
+/*function end*/
 
 /*full page css custom begin*/
 .slide
@@ -29,36 +37,39 @@ p
     // background -webkit-linear-gradient(#19AEEE, #51C3EB)
     // background linear-gradient(#19AEEE,#51C3EB)
     // padding-top 50px
-.controlArrow
-    top 33%
+.fp-controlArrow
+    top 40% //314/920
+    transform translateY(-50%)
+
     
-.controlArrow.next
+.fp-controlArrow.fp-prev
     // border-color transparent transparent transparent #FF0000
-    width 32px
-    height 129px
+    width 64px
+    height 256px
     border-width 0
-    background url("../images/arrow.png")
-    transform rotate(180deg)
-    -webkit-transform rotate(180deg)
-    zoom 0.5
+    background url("../images/larrow.png")
+    left 0
+    // zoom 0.5
 
-.controlArrow.prev
+.fp-controlArrow.fp-next
     // border-color transparent #FF0000 transparent transparent 
-    width 32px
-    height 129px
+    width 64px
+    height 256px
     border-width 0
-    background url("../images/arrow.png")
-    zoom 0.5
+    background url("../images/rarrow.png")
+    right 0
+    // zoom 0.5
 
-.fullPage-slidesNav.top
+.fp-slidesNav.top
     top 920px
 
-#fullPage-nav span, .fullPage-slidesNav span
+
+#fp-nav span, .fp-slidesNav span
     background rgba(255, 255, 255, 0.5)
     border-width 0
     width 10px
     height 10px
-#fullPage-nav li .active span, .fullPage-slidesNav .active span
+#fp-nav li .active span, .fp-slidesNav .active span
     background rgba(255, 255, 255, 1)
 /*full page css custom end*/
 
@@ -68,25 +79,122 @@ p
 
 
 
-
+ 
 /* sprites css end */
 
-.wrapper
+.control
+  width 100%
+  max-width 640px
+  margin 0 auto
+  background-color #25C5F4
+  .wrapper
     position relative
     width 100%
     padding-bottom  143.7%
 
     .aspect
-        position absolute
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+      margin auto
+      .header
+        width 100%
+        height 8.7% //80/920
+        margin-top 7.03% //45/640
+        // background-color gold
+        img 
+            height 100%
+            margin-left 20.78% //133/640
+            float left
+        h3
+          font-size 3.8rem
+          margin-top 0
+          margin-bottom 0
+          margin-left  37.5%//248/640
+        p 
+          margin 1.25% auto //8/640
+          margin-left 37.5%
+          font-size 2.0rem  
+      .content
+        width 100%
+        height 32.6% //300/920
+        margin-top 8.12% //52/640
+        overflow hidden
+        .icon_and
+          position absolute
+          left 50%
+          width 41.94% //263/640
+          
+        .icon_ios
+          position absolute
+          right 52.5% //16/640
+          width 38.75% //248/640
+      .footer
+        width 100%
+        height 47.82% //440/920
+        background-color white
+        position relative
         top 0
-        left 0
-        right 0
-        bottom 0
-        margin auto
-        .header
+        z-index 2
+        .dots_bg
+          width 100%
+          height  33px //33/920
+          background url(../images/dots_bg.png)
+        .inner_foot
+          width  90%//576/640
+          height 100% //440
+          margin 0 auto
+          a.down
+            width 42.5% //272/640
+            height 18.18% //80/440
+            display inline-block
+            border-radius 10px
+            position absolute
+            top 14.55%//64/440
+            background-repeat no-repeat
+            background-position 5.88% center //16/272
+            .line 
+              display inline-block
+              width 100%
+              margin-left 29.41% //80/272
+              color white
+            .line1
+              margin-top 5.88%//16/272
+              font-size 2.1rem
+            .line2
+              margin-top 2.2% //5/272
+              font-size 2.0rem
+          a.down_ios
+            background-color #29b6f6
+            background-image url("../images/ios.png");
+            right 52.5%//16/640
+          a.down_and
+            background-color #5dd411
+            background-image url("../images/and.png");
+            left 52.5% //16/640
+            
+          p 
+            position relative
+            top 37.73%//166/440
             width 100%
-            height 8.7% //80/920
-            margin-top 7.03% //45/640
-            background-color gold
-            img 
-                height 100%
+            margin 0 auto 7.29% auto //42/576
+            margin-left 25.17%//145/ 576
+
+            font-size 2.5rem
+            color #747474
+
+            &:before
+                content " "
+                display inline-block
+                width 2.0rem
+                height 2.0rem
+                background-color #f9a825
+                border-radius 1.0rem
+                margin-right  4.51% //26px/576
+
+
+
+
+
