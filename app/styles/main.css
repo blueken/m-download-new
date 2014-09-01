@@ -539,7 +539,7 @@ body {
 /*MEDIA QUERY BEGIN*/
 @media screen and (max-width: 480px) {
   .control .wrapper .aspect .header {
-    zoom: 0.7;
+    zoom: 0.6;
   }
   .control .wrapper .aspect .footer .dots_bg {
     height: 25px;
@@ -565,7 +565,7 @@ body {
     zoom: 0.5;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
   .control .wrapper .aspect .header {
     zoom: 0.5;
   }
