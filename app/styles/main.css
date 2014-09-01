@@ -344,7 +344,7 @@ body {
   margin-right: 4.51%;
 }
 /*MEDIA QUERY BEGIN*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .control .wrapper .aspect .header {
     zoom: 0.7;
   }
@@ -366,6 +366,10 @@ body {
   .control .wrapper .aspect .footer .inner_foot p:before {
     width: 1rem;
     height: 1rem;
+  }
+  .fp-controlArrow,
+  .controlArrow {
+    zoom: 0.5;
   }
 }
 @media screen and (max-width: 360px) {
@@ -391,9 +395,5 @@ body {
     width: 0.7rem;
     height: 0.7rem;
   }
-}
-.fp-controlArrow,
-.controlArrow {
-  zoom: 0.5;
 }
 /*MEDIA QUERY END*/
