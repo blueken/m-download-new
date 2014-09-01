@@ -1,9 +1,15 @@
 function bindEvents() {
 	'use strict';
-	$(window).bind('orientationchange', function() {
+	$(window).on('orientationchange', function() {
 		setTimeout(function() {
 			location.reload();
 		},300);
+	});
+
+	$(window).on('resize', function() {
+		setTimeout(function() {
+			calcDotsPos();
+		},500);
 	});
 
 
