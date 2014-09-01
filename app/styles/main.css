@@ -159,6 +159,199 @@ body {
   margin-left: 37.5%;
   font-size: 2rem;
 }
+.and .wrapper .aspect .header_hjwx,
+.dots_bg .wrapper .aspect .header_hjwx,
+.icon_cctalk .wrapper .aspect .header_hjwx,
+.icon_hjwx .wrapper .aspect .header_hjwx,
+.icon_hjxd .wrapper .aspect .header_hjwx,
+.icon_kxcc .wrapper .aspect .header_hjwx,
+.ios .wrapper .aspect .header_hjwx,
+.control .wrapper .aspect .header_hjwx {
+  overflow: hidden;
+}
+.and .wrapper .aspect .header_hjwx img,
+.dots_bg .wrapper .aspect .header_hjwx img,
+.icon_cctalk .wrapper .aspect .header_hjwx img,
+.icon_hjwx .wrapper .aspect .header_hjwx img,
+.icon_hjxd .wrapper .aspect .header_hjwx img,
+.icon_kxcc .wrapper .aspect .header_hjwx img,
+.ios .wrapper .aspect .header_hjwx img,
+.control .wrapper .aspect .header_hjwx img {
+  margin-left: 27.34%;
+}
+.and .wrapper .aspect .header_hjwx h3,
+.dots_bg .wrapper .aspect .header_hjwx h3,
+.icon_cctalk .wrapper .aspect .header_hjwx h3,
+.icon_hjwx .wrapper .aspect .header_hjwx h3,
+.icon_hjxd .wrapper .aspect .header_hjwx h3,
+.icon_kxcc .wrapper .aspect .header_hjwx h3,
+.ios .wrapper .aspect .header_hjwx h3,
+.control .wrapper .aspect .header_hjwx h3 {
+  margin-left: 45%;
+  margin-top: 2.5%;
+}
+.and .wrapper .aspect .header_hjwx p,
+.dots_bg .wrapper .aspect .header_hjwx p,
+.icon_cctalk .wrapper .aspect .header_hjwx p,
+.icon_hjwx .wrapper .aspect .header_hjwx p,
+.icon_hjxd .wrapper .aspect .header_hjwx p,
+.icon_kxcc .wrapper .aspect .header_hjwx p,
+.ios .wrapper .aspect .header_hjwx p,
+.control .wrapper .aspect .header_hjwx p {
+  display: none;
+}
+.and .wrapper .aspect .header_cctalk,
+.dots_bg .wrapper .aspect .header_cctalk,
+.icon_cctalk .wrapper .aspect .header_cctalk,
+.icon_hjwx .wrapper .aspect .header_cctalk,
+.icon_hjxd .wrapper .aspect .header_cctalk,
+.icon_kxcc .wrapper .aspect .header_cctalk,
+.ios .wrapper .aspect .header_cctalk,
+.control .wrapper .aspect .header_cctalk {
+  overflow: hidden;
+}
+.and .wrapper .aspect .header_cctalk img,
+.dots_bg .wrapper .aspect .header_cctalk img,
+.icon_cctalk .wrapper .aspect .header_cctalk img,
+.icon_hjwx .wrapper .aspect .header_cctalk img,
+.icon_hjxd .wrapper .aspect .header_cctalk img,
+.icon_kxcc .wrapper .aspect .header_cctalk img,
+.ios .wrapper .aspect .header_cctalk img,
+.control .wrapper .aspect .header_cctalk img {
+  margin-left: 23.44%;
+}
+.and .wrapper .aspect .header_cctalk h3,
+.dots_bg .wrapper .aspect .header_cctalk h3,
+.icon_cctalk .wrapper .aspect .header_cctalk h3,
+.icon_hjwx .wrapper .aspect .header_cctalk h3,
+.icon_hjxd .wrapper .aspect .header_cctalk h3,
+.icon_kxcc .wrapper .aspect .header_cctalk h3,
+.ios .wrapper .aspect .header_cctalk h3,
+.control .wrapper .aspect .header_cctalk h3,
+.and .wrapper .aspect .header_cctalk p,
+.dots_bg .wrapper .aspect .header_cctalk p,
+.icon_cctalk .wrapper .aspect .header_cctalk p,
+.icon_hjwx .wrapper .aspect .header_cctalk p,
+.icon_hjxd .wrapper .aspect .header_cctalk p,
+.icon_kxcc .wrapper .aspect .header_cctalk p,
+.ios .wrapper .aspect .header_cctalk p,
+.control .wrapper .aspect .header_cctalk p {
+  margin-left: 40.94%;
+}
+.and .wrapper .aspect .header_kxcc,
+.dots_bg .wrapper .aspect .header_kxcc,
+.icon_cctalk .wrapper .aspect .header_kxcc,
+.icon_hjwx .wrapper .aspect .header_kxcc,
+.icon_hjxd .wrapper .aspect .header_kxcc,
+.icon_kxcc .wrapper .aspect .header_kxcc,
+.ios .wrapper .aspect .header_kxcc,
+.control .wrapper .aspect .header_kxcc {
+  overflow: hidden;
+}
+.and .wrapper .aspect .header_kxcc img,
+.dots_bg .wrapper .aspect .header_kxcc img,
+.icon_cctalk .wrapper .aspect .header_kxcc img,
+.icon_hjwx .wrapper .aspect .header_kxcc img,
+.icon_hjxd .wrapper .aspect .header_kxcc img,
+.icon_kxcc .wrapper .aspect .header_kxcc img,
+.ios .wrapper .aspect .header_kxcc img,
+.control .wrapper .aspect .header_kxcc img {
+  margin-left: 20.31%;
+}
+.and .wrapper .aspect .header_kxcc h3,
+.dots_bg .wrapper .aspect .header_kxcc h3,
+.icon_cctalk .wrapper .aspect .header_kxcc h3,
+.icon_hjwx .wrapper .aspect .header_kxcc h3,
+.icon_hjxd .wrapper .aspect .header_kxcc h3,
+.icon_kxcc .wrapper .aspect .header_kxcc h3,
+.ios .wrapper .aspect .header_kxcc h3,
+.control .wrapper .aspect .header_kxcc h3,
+.and .wrapper .aspect .header_kxcc p,
+.dots_bg .wrapper .aspect .header_kxcc p,
+.icon_cctalk .wrapper .aspect .header_kxcc p,
+.icon_hjwx .wrapper .aspect .header_kxcc p,
+.icon_hjxd .wrapper .aspect .header_kxcc p,
+.icon_kxcc .wrapper .aspect .header_kxcc p,
+.ios .wrapper .aspect .header_kxcc p,
+.control .wrapper .aspect .header_kxcc p {
+  margin-left: 38.28%;
+}
+.and .wrapper .aspect .header_tlk,
+.dots_bg .wrapper .aspect .header_tlk,
+.icon_cctalk .wrapper .aspect .header_tlk,
+.icon_hjwx .wrapper .aspect .header_tlk,
+.icon_hjxd .wrapper .aspect .header_tlk,
+.icon_kxcc .wrapper .aspect .header_tlk,
+.ios .wrapper .aspect .header_tlk,
+.control .wrapper .aspect .header_tlk {
+  overflow: hidden;
+}
+.and .wrapper .aspect .header_tlk img,
+.dots_bg .wrapper .aspect .header_tlk img,
+.icon_cctalk .wrapper .aspect .header_tlk img,
+.icon_hjwx .wrapper .aspect .header_tlk img,
+.icon_hjxd .wrapper .aspect .header_tlk img,
+.icon_kxcc .wrapper .aspect .header_tlk img,
+.ios .wrapper .aspect .header_tlk img,
+.control .wrapper .aspect .header_tlk img {
+  margin-left: 24.22%;
+}
+.and .wrapper .aspect .header_tlk h3,
+.dots_bg .wrapper .aspect .header_tlk h3,
+.icon_cctalk .wrapper .aspect .header_tlk h3,
+.icon_hjwx .wrapper .aspect .header_tlk h3,
+.icon_hjxd .wrapper .aspect .header_tlk h3,
+.icon_kxcc .wrapper .aspect .header_tlk h3,
+.ios .wrapper .aspect .header_tlk h3,
+.control .wrapper .aspect .header_tlk h3,
+.and .wrapper .aspect .header_tlk p,
+.dots_bg .wrapper .aspect .header_tlk p,
+.icon_cctalk .wrapper .aspect .header_tlk p,
+.icon_hjwx .wrapper .aspect .header_tlk p,
+.icon_hjxd .wrapper .aspect .header_tlk p,
+.icon_kxcc .wrapper .aspect .header_tlk p,
+.ios .wrapper .aspect .header_tlk p,
+.control .wrapper .aspect .header_tlk p {
+  margin-left: 42.34%;
+}
+.and .wrapper .aspect .header_hjxd,
+.dots_bg .wrapper .aspect .header_hjxd,
+.icon_cctalk .wrapper .aspect .header_hjxd,
+.icon_hjwx .wrapper .aspect .header_hjxd,
+.icon_hjxd .wrapper .aspect .header_hjxd,
+.icon_kxcc .wrapper .aspect .header_hjxd,
+.ios .wrapper .aspect .header_hjxd,
+.control .wrapper .aspect .header_hjxd {
+  overflow: hidden;
+}
+.and .wrapper .aspect .header_hjxd img,
+.dots_bg .wrapper .aspect .header_hjxd img,
+.icon_cctalk .wrapper .aspect .header_hjxd img,
+.icon_hjwx .wrapper .aspect .header_hjxd img,
+.icon_hjxd .wrapper .aspect .header_hjxd img,
+.icon_kxcc .wrapper .aspect .header_hjxd img,
+.ios .wrapper .aspect .header_hjxd img,
+.control .wrapper .aspect .header_hjxd img {
+  margin-left: 28.13%;
+}
+.and .wrapper .aspect .header_hjxd h3,
+.dots_bg .wrapper .aspect .header_hjxd h3,
+.icon_cctalk .wrapper .aspect .header_hjxd h3,
+.icon_hjwx .wrapper .aspect .header_hjxd h3,
+.icon_hjxd .wrapper .aspect .header_hjxd h3,
+.icon_kxcc .wrapper .aspect .header_hjxd h3,
+.ios .wrapper .aspect .header_hjxd h3,
+.control .wrapper .aspect .header_hjxd h3,
+.and .wrapper .aspect .header_hjxd p,
+.dots_bg .wrapper .aspect .header_hjxd p,
+.icon_cctalk .wrapper .aspect .header_hjxd p,
+.icon_hjwx .wrapper .aspect .header_hjxd p,
+.icon_hjxd .wrapper .aspect .header_hjxd p,
+.icon_kxcc .wrapper .aspect .header_hjxd p,
+.ios .wrapper .aspect .header_hjxd p,
+.control .wrapper .aspect .header_hjxd p {
+  margin-left: 45%;
+}
 .and .wrapper .aspect .content,
 .dots_bg .wrapper .aspect .content,
 .icon_cctalk .wrapper .aspect .content,
