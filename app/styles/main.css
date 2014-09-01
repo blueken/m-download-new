@@ -24,7 +24,8 @@ body {
 /*function begin*/
 /*function end*/
 /*full page css custom begin*/
-.fp-controlArrow {
+.fp-controlArrow,
+.controlArrow {
   top: 40%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
@@ -32,32 +33,39 @@ body {
   -o-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
 }
-.fp-controlArrow.fp-prev {
+.fp-controlArrow.fp-prev,
+.controlArrow.prev {
   width: 64px;
   height: 256px;
   border-width: 0;
   background: url("../images/larrow.png");
   left: 0;
 }
-.fp-controlArrow.fp-next {
+.fp-controlArrow.fp-next,
+.controlArrow.next {
   width: 64px;
   height: 256px;
   border-width: 0;
   background: url("../images/rarrow.png");
   right: 0;
 }
-.fp-slidesNav.top {
+.fp-slidesNav.top,
+.fullPage-slidesNav.top {
   top: 920px;
 }
 #fp-nav span,
-.fp-slidesNav span {
+.fp-slidesNav span,
+#fullPage-nav span,
+.fullPage-slidesNav span {
   background: rgba(255,255,255,0.5);
   border-width: 0;
   width: 10px;
   height: 10px;
 }
 #fp-nav li .active span,
-.fp-slidesNav .active span {
+.fp-slidesNav .active span,
+#fullPage-nav li .active span,
+.fullPage-slidesNav .active span {
   background: #fff;
 }
 /*full page css custom end*/

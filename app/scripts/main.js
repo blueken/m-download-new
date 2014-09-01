@@ -12,7 +12,11 @@ function calcDotsPos() {
 	'use strict';
 	var dotsbgy = ($('.dots_bg').offset()).top;
 	// dotsbgy = dotsbgy * 0.5 - 6;
-	$('.fp-slidesNav.top').css('top', dotsbgy+'px');
+	var slideNav = $('.fullPage-slidesNav.top') ? $('.fullPage-slidesNav.top') : $('.fp-slidesNav.top');
+	if (slideNav) {
+		slideNav.css('top', dotsbgy+'px');
+	};
+
 }
 function callfullpage() {
 	'use strict';
