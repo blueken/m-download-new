@@ -73,11 +73,16 @@ function weixinurl() {
 		});
 	}
 }
-
+function hideOverlay() {
+	setTimeout(function() {
+		$(".overlay").hide();
+	}, 2500);
+}
 $(function() {
 	'use strict';
     callfullpage();
     calcDotsPos();
     weixinurl();
     bindEvents();
+    hideOverlay();
 });
