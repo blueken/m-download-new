@@ -86,39 +86,17 @@ body {
   background: #fff;
 }
 /*full page css custom end*/
-/* sprites css start */
-.and,
-.dots_bg,
-.icon_cctalk,
-.icon_hjwx,
-.icon_hjxd,
-.icon_kxcc,
-.ios,
 .control {
   width: 100%;
   max-width: 640px;
   margin: 0 auto;
   background-color: #25c5f4;
 }
-.and .wrapper,
-.dots_bg .wrapper,
-.icon_cctalk .wrapper,
-.icon_hjwx .wrapper,
-.icon_hjxd .wrapper,
-.icon_kxcc .wrapper,
-.ios .wrapper,
 .control .wrapper {
   position: relative;
   width: 100%;
   padding-bottom: 143.7%;
 }
-.and .wrapper .aspect,
-.dots_bg .wrapper .aspect,
-.icon_cctalk .wrapper .aspect,
-.icon_hjwx .wrapper .aspect,
-.icon_hjxd .wrapper .aspect,
-.icon_kxcc .wrapper .aspect,
-.ios .wrapper .aspect,
 .control .wrapper .aspect {
   position: absolute;
   top: 0;
@@ -127,292 +105,96 @@ body {
   bottom: 0;
   margin: auto;
 }
-.and .wrapper .aspect .header,
-.dots_bg .wrapper .aspect .header,
-.icon_cctalk .wrapper .aspect .header,
-.icon_hjwx .wrapper .aspect .header,
-.icon_hjxd .wrapper .aspect .header,
-.icon_kxcc .wrapper .aspect .header,
-.ios .wrapper .aspect .header,
 .control .wrapper .aspect .header {
   width: 100%;
   height: 8.7%;
   margin-top: 7.03%;
 }
-.and .wrapper .aspect .header img,
-.dots_bg .wrapper .aspect .header img,
-.icon_cctalk .wrapper .aspect .header img,
-.icon_hjwx .wrapper .aspect .header img,
-.icon_hjxd .wrapper .aspect .header img,
-.icon_kxcc .wrapper .aspect .header img,
-.ios .wrapper .aspect .header img,
 .control .wrapper .aspect .header img {
   height: 100%;
   margin-left: 20.78%;
   float: left;
 }
-.and .wrapper .aspect .header h3,
-.dots_bg .wrapper .aspect .header h3,
-.icon_cctalk .wrapper .aspect .header h3,
-.icon_hjwx .wrapper .aspect .header h3,
-.icon_hjxd .wrapper .aspect .header h3,
-.icon_kxcc .wrapper .aspect .header h3,
-.ios .wrapper .aspect .header h3,
 .control .wrapper .aspect .header h3 {
   font-size: 3.8rem;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 37.5%;
 }
-.and .wrapper .aspect .header p,
-.dots_bg .wrapper .aspect .header p,
-.icon_cctalk .wrapper .aspect .header p,
-.icon_hjwx .wrapper .aspect .header p,
-.icon_hjxd .wrapper .aspect .header p,
-.icon_kxcc .wrapper .aspect .header p,
-.ios .wrapper .aspect .header p,
 .control .wrapper .aspect .header p {
   margin: 1.25% auto;
   margin-left: 37.5%;
   font-size: 2rem;
 }
-.and .wrapper .aspect .header_hjwx,
-.dots_bg .wrapper .aspect .header_hjwx,
-.icon_cctalk .wrapper .aspect .header_hjwx,
-.icon_hjwx .wrapper .aspect .header_hjwx,
-.icon_hjxd .wrapper .aspect .header_hjwx,
-.icon_kxcc .wrapper .aspect .header_hjwx,
-.ios .wrapper .aspect .header_hjwx,
 .control .wrapper .aspect .header_hjwx {
   overflow: hidden;
 }
-.and .wrapper .aspect .header_hjwx img,
-.dots_bg .wrapper .aspect .header_hjwx img,
-.icon_cctalk .wrapper .aspect .header_hjwx img,
-.icon_hjwx .wrapper .aspect .header_hjwx img,
-.icon_hjxd .wrapper .aspect .header_hjwx img,
-.icon_kxcc .wrapper .aspect .header_hjwx img,
-.ios .wrapper .aspect .header_hjwx img,
 .control .wrapper .aspect .header_hjwx img {
   margin-left: 27.34%;
 }
-.and .wrapper .aspect .header_hjwx h3,
-.dots_bg .wrapper .aspect .header_hjwx h3,
-.icon_cctalk .wrapper .aspect .header_hjwx h3,
-.icon_hjwx .wrapper .aspect .header_hjwx h3,
-.icon_hjxd .wrapper .aspect .header_hjwx h3,
-.icon_kxcc .wrapper .aspect .header_hjwx h3,
-.ios .wrapper .aspect .header_hjwx h3,
 .control .wrapper .aspect .header_hjwx h3 {
   margin-left: 45%;
   margin-top: 2.5%;
 }
-.and .wrapper .aspect .header_hjwx p,
-.dots_bg .wrapper .aspect .header_hjwx p,
-.icon_cctalk .wrapper .aspect .header_hjwx p,
-.icon_hjwx .wrapper .aspect .header_hjwx p,
-.icon_hjxd .wrapper .aspect .header_hjwx p,
-.icon_kxcc .wrapper .aspect .header_hjwx p,
-.ios .wrapper .aspect .header_hjwx p,
 .control .wrapper .aspect .header_hjwx p {
   display: none;
 }
-.and .wrapper .aspect .header_cctalk,
-.dots_bg .wrapper .aspect .header_cctalk,
-.icon_cctalk .wrapper .aspect .header_cctalk,
-.icon_hjwx .wrapper .aspect .header_cctalk,
-.icon_hjxd .wrapper .aspect .header_cctalk,
-.icon_kxcc .wrapper .aspect .header_cctalk,
-.ios .wrapper .aspect .header_cctalk,
 .control .wrapper .aspect .header_cctalk {
   overflow: hidden;
 }
-.and .wrapper .aspect .header_cctalk img,
-.dots_bg .wrapper .aspect .header_cctalk img,
-.icon_cctalk .wrapper .aspect .header_cctalk img,
-.icon_hjwx .wrapper .aspect .header_cctalk img,
-.icon_hjxd .wrapper .aspect .header_cctalk img,
-.icon_kxcc .wrapper .aspect .header_cctalk img,
-.ios .wrapper .aspect .header_cctalk img,
 .control .wrapper .aspect .header_cctalk img {
   margin-left: 23.44%;
 }
-.and .wrapper .aspect .header_cctalk h3,
-.dots_bg .wrapper .aspect .header_cctalk h3,
-.icon_cctalk .wrapper .aspect .header_cctalk h3,
-.icon_hjwx .wrapper .aspect .header_cctalk h3,
-.icon_hjxd .wrapper .aspect .header_cctalk h3,
-.icon_kxcc .wrapper .aspect .header_cctalk h3,
-.ios .wrapper .aspect .header_cctalk h3,
 .control .wrapper .aspect .header_cctalk h3,
-.and .wrapper .aspect .header_cctalk p,
-.dots_bg .wrapper .aspect .header_cctalk p,
-.icon_cctalk .wrapper .aspect .header_cctalk p,
-.icon_hjwx .wrapper .aspect .header_cctalk p,
-.icon_hjxd .wrapper .aspect .header_cctalk p,
-.icon_kxcc .wrapper .aspect .header_cctalk p,
-.ios .wrapper .aspect .header_cctalk p,
 .control .wrapper .aspect .header_cctalk p {
   margin-left: 40.94%;
 }
-.and .wrapper .aspect .header_kxcc,
-.dots_bg .wrapper .aspect .header_kxcc,
-.icon_cctalk .wrapper .aspect .header_kxcc,
-.icon_hjwx .wrapper .aspect .header_kxcc,
-.icon_hjxd .wrapper .aspect .header_kxcc,
-.icon_kxcc .wrapper .aspect .header_kxcc,
-.ios .wrapper .aspect .header_kxcc,
 .control .wrapper .aspect .header_kxcc {
   overflow: hidden;
 }
-.and .wrapper .aspect .header_kxcc img,
-.dots_bg .wrapper .aspect .header_kxcc img,
-.icon_cctalk .wrapper .aspect .header_kxcc img,
-.icon_hjwx .wrapper .aspect .header_kxcc img,
-.icon_hjxd .wrapper .aspect .header_kxcc img,
-.icon_kxcc .wrapper .aspect .header_kxcc img,
-.ios .wrapper .aspect .header_kxcc img,
 .control .wrapper .aspect .header_kxcc img {
   margin-left: 20.31%;
 }
-.and .wrapper .aspect .header_kxcc h3,
-.dots_bg .wrapper .aspect .header_kxcc h3,
-.icon_cctalk .wrapper .aspect .header_kxcc h3,
-.icon_hjwx .wrapper .aspect .header_kxcc h3,
-.icon_hjxd .wrapper .aspect .header_kxcc h3,
-.icon_kxcc .wrapper .aspect .header_kxcc h3,
-.ios .wrapper .aspect .header_kxcc h3,
 .control .wrapper .aspect .header_kxcc h3,
-.and .wrapper .aspect .header_kxcc p,
-.dots_bg .wrapper .aspect .header_kxcc p,
-.icon_cctalk .wrapper .aspect .header_kxcc p,
-.icon_hjwx .wrapper .aspect .header_kxcc p,
-.icon_hjxd .wrapper .aspect .header_kxcc p,
-.icon_kxcc .wrapper .aspect .header_kxcc p,
-.ios .wrapper .aspect .header_kxcc p,
 .control .wrapper .aspect .header_kxcc p {
   margin-left: 38.28%;
 }
-.and .wrapper .aspect .header_tlk,
-.dots_bg .wrapper .aspect .header_tlk,
-.icon_cctalk .wrapper .aspect .header_tlk,
-.icon_hjwx .wrapper .aspect .header_tlk,
-.icon_hjxd .wrapper .aspect .header_tlk,
-.icon_kxcc .wrapper .aspect .header_tlk,
-.ios .wrapper .aspect .header_tlk,
 .control .wrapper .aspect .header_tlk {
   overflow: hidden;
 }
-.and .wrapper .aspect .header_tlk img,
-.dots_bg .wrapper .aspect .header_tlk img,
-.icon_cctalk .wrapper .aspect .header_tlk img,
-.icon_hjwx .wrapper .aspect .header_tlk img,
-.icon_hjxd .wrapper .aspect .header_tlk img,
-.icon_kxcc .wrapper .aspect .header_tlk img,
-.ios .wrapper .aspect .header_tlk img,
 .control .wrapper .aspect .header_tlk img {
   margin-left: 24.22%;
 }
-.and .wrapper .aspect .header_tlk h3,
-.dots_bg .wrapper .aspect .header_tlk h3,
-.icon_cctalk .wrapper .aspect .header_tlk h3,
-.icon_hjwx .wrapper .aspect .header_tlk h3,
-.icon_hjxd .wrapper .aspect .header_tlk h3,
-.icon_kxcc .wrapper .aspect .header_tlk h3,
-.ios .wrapper .aspect .header_tlk h3,
 .control .wrapper .aspect .header_tlk h3,
-.and .wrapper .aspect .header_tlk p,
-.dots_bg .wrapper .aspect .header_tlk p,
-.icon_cctalk .wrapper .aspect .header_tlk p,
-.icon_hjwx .wrapper .aspect .header_tlk p,
-.icon_hjxd .wrapper .aspect .header_tlk p,
-.icon_kxcc .wrapper .aspect .header_tlk p,
-.ios .wrapper .aspect .header_tlk p,
 .control .wrapper .aspect .header_tlk p {
   margin-left: 42.34%;
 }
-.and .wrapper .aspect .header_hjxd,
-.dots_bg .wrapper .aspect .header_hjxd,
-.icon_cctalk .wrapper .aspect .header_hjxd,
-.icon_hjwx .wrapper .aspect .header_hjxd,
-.icon_hjxd .wrapper .aspect .header_hjxd,
-.icon_kxcc .wrapper .aspect .header_hjxd,
-.ios .wrapper .aspect .header_hjxd,
 .control .wrapper .aspect .header_hjxd {
   overflow: hidden;
 }
-.and .wrapper .aspect .header_hjxd img,
-.dots_bg .wrapper .aspect .header_hjxd img,
-.icon_cctalk .wrapper .aspect .header_hjxd img,
-.icon_hjwx .wrapper .aspect .header_hjxd img,
-.icon_hjxd .wrapper .aspect .header_hjxd img,
-.icon_kxcc .wrapper .aspect .header_hjxd img,
-.ios .wrapper .aspect .header_hjxd img,
 .control .wrapper .aspect .header_hjxd img {
   margin-left: 28.13%;
 }
-.and .wrapper .aspect .header_hjxd h3,
-.dots_bg .wrapper .aspect .header_hjxd h3,
-.icon_cctalk .wrapper .aspect .header_hjxd h3,
-.icon_hjwx .wrapper .aspect .header_hjxd h3,
-.icon_hjxd .wrapper .aspect .header_hjxd h3,
-.icon_kxcc .wrapper .aspect .header_hjxd h3,
-.ios .wrapper .aspect .header_hjxd h3,
 .control .wrapper .aspect .header_hjxd h3,
-.and .wrapper .aspect .header_hjxd p,
-.dots_bg .wrapper .aspect .header_hjxd p,
-.icon_cctalk .wrapper .aspect .header_hjxd p,
-.icon_hjwx .wrapper .aspect .header_hjxd p,
-.icon_hjxd .wrapper .aspect .header_hjxd p,
-.icon_kxcc .wrapper .aspect .header_hjxd p,
-.ios .wrapper .aspect .header_hjxd p,
 .control .wrapper .aspect .header_hjxd p {
   margin-left: 45%;
 }
-.and .wrapper .aspect .content,
-.dots_bg .wrapper .aspect .content,
-.icon_cctalk .wrapper .aspect .content,
-.icon_hjwx .wrapper .aspect .content,
-.icon_hjxd .wrapper .aspect .content,
-.icon_kxcc .wrapper .aspect .content,
-.ios .wrapper .aspect .content,
 .control .wrapper .aspect .content {
   width: 100%;
   height: 32.6%;
   margin-top: 8.12%;
   overflow: hidden;
 }
-.and .wrapper .aspect .content .icon_and,
-.dots_bg .wrapper .aspect .content .icon_and,
-.icon_cctalk .wrapper .aspect .content .icon_and,
-.icon_hjwx .wrapper .aspect .content .icon_and,
-.icon_hjxd .wrapper .aspect .content .icon_and,
-.icon_kxcc .wrapper .aspect .content .icon_and,
-.ios .wrapper .aspect .content .icon_and,
 .control .wrapper .aspect .content .icon_and {
   position: absolute;
   left: 50%;
   width: 41.94%;
 }
-.and .wrapper .aspect .content .icon_ios,
-.dots_bg .wrapper .aspect .content .icon_ios,
-.icon_cctalk .wrapper .aspect .content .icon_ios,
-.icon_hjwx .wrapper .aspect .content .icon_ios,
-.icon_hjxd .wrapper .aspect .content .icon_ios,
-.icon_kxcc .wrapper .aspect .content .icon_ios,
-.ios .wrapper .aspect .content .icon_ios,
 .control .wrapper .aspect .content .icon_ios {
   position: absolute;
   right: 52.5%;
   width: 38.75%;
 }
-.and .wrapper .aspect .footer,
-.dots_bg .wrapper .aspect .footer,
-.icon_cctalk .wrapper .aspect .footer,
-.icon_hjwx .wrapper .aspect .footer,
-.icon_hjxd .wrapper .aspect .footer,
-.icon_kxcc .wrapper .aspect .footer,
-.ios .wrapper .aspect .footer,
 .control .wrapper .aspect .footer {
   width: 100%;
   height: 48.2%;
@@ -421,37 +203,21 @@ body {
   top: 0;
   z-index: 2;
 }
-.and .wrapper .aspect .footer .dots_bg,
-.dots_bg .wrapper .aspect .footer .dots_bg,
-.icon_cctalk .wrapper .aspect .footer .dots_bg,
-.icon_hjwx .wrapper .aspect .footer .dots_bg,
-.icon_hjxd .wrapper .aspect .footer .dots_bg,
-.icon_kxcc .wrapper .aspect .footer .dots_bg,
-.ios .wrapper .aspect .footer .dots_bg,
 .control .wrapper .aspect .footer .dots_bg {
   width: 100%;
   height: 32px;
   background: url("../images/dots_bg.png");
 }
-.and .wrapper .aspect .footer .inner_foot,
-.dots_bg .wrapper .aspect .footer .inner_foot,
-.icon_cctalk .wrapper .aspect .footer .inner_foot,
-.icon_hjwx .wrapper .aspect .footer .inner_foot,
-.icon_hjxd .wrapper .aspect .footer .inner_foot,
-.icon_kxcc .wrapper .aspect .footer .inner_foot,
-.ios .wrapper .aspect .footer .inner_foot,
+.control .wrapper .aspect .footer .dots_bg_hjwx {
+  width: 100%;
+  height: 32px;
+  background: url("../images/dots_bg_hjwx.png");
+}
 .control .wrapper .aspect .footer .inner_foot {
   width: 90%;
   height: 100%;
   margin: 0 auto;
 }
-.and .wrapper .aspect .footer .inner_foot a.down,
-.dots_bg .wrapper .aspect .footer .inner_foot a.down,
-.icon_cctalk .wrapper .aspect .footer .inner_foot a.down,
-.icon_hjwx .wrapper .aspect .footer .inner_foot a.down,
-.icon_hjxd .wrapper .aspect .footer .inner_foot a.down,
-.icon_kxcc .wrapper .aspect .footer .inner_foot a.down,
-.ios .wrapper .aspect .footer .inner_foot a.down,
 .control .wrapper .aspect .footer .inner_foot a.down {
   width: 42.5%;
   height: 18.18%;
@@ -462,72 +228,30 @@ body {
   background-repeat: no-repeat;
   background-position: 5.88% center;
 }
-.and .wrapper .aspect .footer .inner_foot a.down .line,
-.dots_bg .wrapper .aspect .footer .inner_foot a.down .line,
-.icon_cctalk .wrapper .aspect .footer .inner_foot a.down .line,
-.icon_hjwx .wrapper .aspect .footer .inner_foot a.down .line,
-.icon_hjxd .wrapper .aspect .footer .inner_foot a.down .line,
-.icon_kxcc .wrapper .aspect .footer .inner_foot a.down .line,
-.ios .wrapper .aspect .footer .inner_foot a.down .line,
 .control .wrapper .aspect .footer .inner_foot a.down .line {
   display: inline-block;
   width: 100%;
   margin-left: 29.41%;
   color: #fff;
 }
-.and .wrapper .aspect .footer .inner_foot a.down .line1,
-.dots_bg .wrapper .aspect .footer .inner_foot a.down .line1,
-.icon_cctalk .wrapper .aspect .footer .inner_foot a.down .line1,
-.icon_hjwx .wrapper .aspect .footer .inner_foot a.down .line1,
-.icon_hjxd .wrapper .aspect .footer .inner_foot a.down .line1,
-.icon_kxcc .wrapper .aspect .footer .inner_foot a.down .line1,
-.ios .wrapper .aspect .footer .inner_foot a.down .line1,
 .control .wrapper .aspect .footer .inner_foot a.down .line1 {
   margin-top: 5.88%;
   font-size: 2.1rem;
 }
-.and .wrapper .aspect .footer .inner_foot a.down .line2,
-.dots_bg .wrapper .aspect .footer .inner_foot a.down .line2,
-.icon_cctalk .wrapper .aspect .footer .inner_foot a.down .line2,
-.icon_hjwx .wrapper .aspect .footer .inner_foot a.down .line2,
-.icon_hjxd .wrapper .aspect .footer .inner_foot a.down .line2,
-.icon_kxcc .wrapper .aspect .footer .inner_foot a.down .line2,
-.ios .wrapper .aspect .footer .inner_foot a.down .line2,
 .control .wrapper .aspect .footer .inner_foot a.down .line2 {
   margin-top: 2.2%;
   font-size: 2rem;
 }
-.and .wrapper .aspect .footer .inner_foot a.down_ios,
-.dots_bg .wrapper .aspect .footer .inner_foot a.down_ios,
-.icon_cctalk .wrapper .aspect .footer .inner_foot a.down_ios,
-.icon_hjwx .wrapper .aspect .footer .inner_foot a.down_ios,
-.icon_hjxd .wrapper .aspect .footer .inner_foot a.down_ios,
-.icon_kxcc .wrapper .aspect .footer .inner_foot a.down_ios,
-.ios .wrapper .aspect .footer .inner_foot a.down_ios,
 .control .wrapper .aspect .footer .inner_foot a.down_ios {
   background-color: #29b6f6;
   background-image: url("../images/ios.png");
   right: 52.5%;
 }
-.and .wrapper .aspect .footer .inner_foot a.down_and,
-.dots_bg .wrapper .aspect .footer .inner_foot a.down_and,
-.icon_cctalk .wrapper .aspect .footer .inner_foot a.down_and,
-.icon_hjwx .wrapper .aspect .footer .inner_foot a.down_and,
-.icon_hjxd .wrapper .aspect .footer .inner_foot a.down_and,
-.icon_kxcc .wrapper .aspect .footer .inner_foot a.down_and,
-.ios .wrapper .aspect .footer .inner_foot a.down_and,
 .control .wrapper .aspect .footer .inner_foot a.down_and {
   background-color: #5dd411;
   background-image: url("../images/and.png");
   left: 52.5%;
 }
-.and .wrapper .aspect .footer .inner_foot p,
-.dots_bg .wrapper .aspect .footer .inner_foot p,
-.icon_cctalk .wrapper .aspect .footer .inner_foot p,
-.icon_hjwx .wrapper .aspect .footer .inner_foot p,
-.icon_hjxd .wrapper .aspect .footer .inner_foot p,
-.icon_kxcc .wrapper .aspect .footer .inner_foot p,
-.ios .wrapper .aspect .footer .inner_foot p,
 .control .wrapper .aspect .footer .inner_foot p {
   position: relative;
   top: 37.73%;
@@ -537,13 +261,6 @@ body {
   font-size: 2.5rem;
   color: #747474;
 }
-.and .wrapper .aspect .footer .inner_foot p:before,
-.dots_bg .wrapper .aspect .footer .inner_foot p:before,
-.icon_cctalk .wrapper .aspect .footer .inner_foot p:before,
-.icon_hjwx .wrapper .aspect .footer .inner_foot p:before,
-.icon_hjxd .wrapper .aspect .footer .inner_foot p:before,
-.icon_kxcc .wrapper .aspect .footer .inner_foot p:before,
-.ios .wrapper .aspect .footer .inner_foot p:before,
 .control .wrapper .aspect .footer .inner_foot p:before {
   content: " ";
   display: inline-block;
@@ -553,12 +270,16 @@ body {
   border-radius: 1rem;
   margin-right: 4.51%;
 }
+.control.hjwx {
+  background-color: #76cb56;
+}
 /*MEDIA QUERY BEGIN*/
 @media screen and (max-width: 480px) {
   .control .wrapper .aspect .header {
     zoom: 0.6;
   }
-  .control .wrapper .aspect .footer .dots_bg {
+  .control .wrapper .aspect .footer .dots_bg,
+  .control .wrapper .aspect .footer .dots_bg_hjwx {
     height: 25px;
   }
   .control .wrapper .aspect .footer .inner_foot {
@@ -586,7 +307,8 @@ body {
   .control .wrapper .aspect .header {
     zoom: 0.5;
   }
-  .control .wrapper .aspect .footer .dots_bg {
+  .control .wrapper .aspect .footer .dots_bg,
+  .control .wrapper .aspect .footer .dots_bg_hjwx {
     height: 25px;
   }
   .control .wrapper .aspect .footer .inner_foot {
