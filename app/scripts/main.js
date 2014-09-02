@@ -74,9 +74,10 @@ function weixinurl() {
 	}
 }
 function hideOverlay() {
+	'use strict';
 	setTimeout(function() {
-		$(".overlay").hide();
-	}, 2500);
+		$('.overlay').hide();
+	}, 3500);
 }
 $(function() {
 	'use strict';
