@@ -275,9 +275,6 @@ body {
 }
 /*MEDIA QUERY BEGIN*/
 @media screen and (max-width: 480px) {
-  .control .wrapper .aspect .header {
-    zoom: 0.6;
-  }
   .control .wrapper .aspect .header h3 {
     font-size: 2.3rem;
   }
@@ -287,9 +284,6 @@ body {
   .control .wrapper .aspect .footer .dots_bg,
   .control .wrapper .aspect .footer .dots_bg_hjwx {
     height: 25px;
-  }
-  .control .wrapper .aspect .footer .inner_foot {
-    zoom: 0.7;
   }
   .control .wrapper .aspect .footer .inner_foot a.down {
     top: 20%;
@@ -301,8 +295,11 @@ body {
   .control .wrapper .aspect .footer .inner_foot a.down .line2 {
     font-size: 1.4rem;
   }
+  .control .wrapper .aspect .footer .inner_foot a.down_ios,
+  .control .wrapper .aspect .footer .inner_foot a.down_and {
+    background-size: 26px 30px;
+  }
   .control .wrapper .aspect .footer .inner_foot p {
-    zoom: 0.85;
     font-size: 1.7rem;
   }
   .control .wrapper .aspect .footer .inner_foot p:before {
@@ -315,9 +312,6 @@ body {
   }
 }
 @media screen and (max-width: 320px) {
-  .control .wrapper .aspect .header {
-    zoom: 0.5;
-  }
   .control .wrapper .aspect .header h3 {
     font-size: 1.9rem;
   }
@@ -327,9 +321,6 @@ body {
   .control .wrapper .aspect .footer .dots_bg,
   .control .wrapper .aspect .footer .dots_bg_hjwx {
     height: 25px;
-  }
-  .control .wrapper .aspect .footer .inner_foot {
-    zoom: 0.5;
   }
   .control .wrapper .aspect .footer .inner_foot a.down {
     top: 20%;
@@ -341,8 +332,11 @@ body {
   .control .wrapper .aspect .footer .inner_foot a.down .line2 {
     font-size: 1rem;
   }
+  .control .wrapper .aspect .footer .inner_foot a.down_ios,
+  .control .wrapper .aspect .footer .inner_foot a.down_and {
+    background-size: 22px 24px;
+  }
   .control .wrapper .aspect .footer .inner_foot p {
-    zoom: 0.61;
     font-size: 1.2rem;
   }
   .control .wrapper .aspect .footer .inner_foot p:before {
