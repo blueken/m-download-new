@@ -278,6 +278,12 @@ body {
   .control .wrapper .aspect .header {
     zoom: 0.6;
   }
+  .control .wrapper .aspect .header h3 {
+    font-size: 2.3rem;
+  }
+  .control .wrapper .aspect .header p {
+    font-size: 1.2rem;
+  }
   .control .wrapper .aspect .footer .dots_bg,
   .control .wrapper .aspect .footer .dots_bg_hjwx {
     height: 25px;
@@ -290,9 +296,14 @@ body {
   }
   .control .wrapper .aspect .footer .inner_foot a.down .line1 {
     margin-top: 3.7%;
+    font-size: 1.5rem;
+  }
+  .control .wrapper .aspect .footer .inner_foot a.down .line2 {
+    font-size: 1.4rem;
   }
   .control .wrapper .aspect .footer .inner_foot p {
     zoom: 0.85;
+    font-size: 1.7rem;
   }
   .control .wrapper .aspect .footer .inner_foot p:before {
     width: 1rem;
@@ -307,6 +318,12 @@ body {
   .control .wrapper .aspect .header {
     zoom: 0.5;
   }
+  .control .wrapper .aspect .header h3 {
+    font-size: 1.9rem;
+  }
+  .control .wrapper .aspect .header p {
+    font-size: 1rem;
+  }
   .control .wrapper .aspect .footer .dots_bg,
   .control .wrapper .aspect .footer .dots_bg_hjwx {
     height: 25px;
@@ -319,9 +336,14 @@ body {
   }
   .control .wrapper .aspect .footer .inner_foot a.down .line1 {
     margin-top: 3.5%;
+    font-size: 1.1rem;
+  }
+  .control .wrapper .aspect .footer .inner_foot a.down .line2 {
+    font-size: 1rem;
   }
   .control .wrapper .aspect .footer .inner_foot p {
     zoom: 0.61;
+    font-size: 1.2rem;
   }
   .control .wrapper .aspect .footer .inner_foot p:before {
     width: 0.7rem;
