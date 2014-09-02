@@ -1,33 +1,7 @@
-function calcDotsPos() {
-	'use strict';
-	var dotsbgy = ($('.dots_bg').offset()).top;
-	// dotsbgy = dotsbgy * 0.5 - 6;
-	var slideNav = $('.fullPage-slidesNav.top') ? $('.fullPage-slidesNav.top') : $('.fp-slidesNav.top');
-	if (slideNav) {
-		slideNav.css('top', dotsbgy+'px');
-	}
-
-}
-function bindEvents() {
-	'use strict';
-	$(window).on('orientationchange', function() {
-		setTimeout(function() {
-			location.reload();
-		},300);
-	});
-
-	$(window).on('resize', function() {
-		setTimeout(function() {
-			calcDotsPos();
-		},500);
-	});
-
-
-}
 function callfullpage() {
 	'use strict';
 	var bscroll = ($(window).width() > $(window).height()) ? true : false;
-	bscroll = false;
+	bscroll = true;
 	$('#bob').fullpage({
 		css3: true,
 		// slidesColor: ['#19AEEE', '#19AEEE', '#19AEEE', '#19AEEE', '#19AEEE'],
@@ -44,10 +18,7 @@ function callfullpage() {
 		// 	console.log(anchorLink, index, slideIndex, direction)
 		// },
 		afterRender: function() {
-			
-			setTimeout(function() {
-				calcDotsPos();
-			}, 300);
+
 			
 		}
 
@@ -63,6 +34,12 @@ function isWeiXin() {
     var re = /MicroMessenger/gi;
     return re.test(ua);
 }
+function isIOS() {
+	'use strict';
+    var ua = window.navigator.userAgent.toLowerCase();
+    var re = /ipad|iphone/gi;
+    return re.test(ua);
+}
 function weixinurl() {
 	'use strict';
 
@@ -73,17 +50,24 @@ function weixinurl() {
 		});
 	}
 }
-function hideOverlay() {
+
+function ios_weixin() {
 	'use strict';
-	setTimeout(function() {
-		$('.overlay').hide();
-	}, 4000);
+	//deal ios weinxin cant open itunes.apple.com problem
+	if (isIOS() && isWeiXin()) {
+		$(".down_ios").on("click", function() {
+			$('.overlay').show();
+			return false;
+		});
+		$(".overlay").on("click",function() {
+			$(this).hide();
+		});
+
+	};
 }
 $(function() {
 	'use strict';
     callfullpage();
-    calcDotsPos();
     weixinurl();
-    bindEvents();
-    hideOverlay();
+    ios_weixin();
 });
