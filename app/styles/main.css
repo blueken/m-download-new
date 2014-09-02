@@ -120,7 +120,7 @@ body {
   margin-left: 37.5%;
 }
 .control .wrapper .aspect .header p {
-  margin: 1.25% auto;
+  margin: 1.2% auto;
   margin-left: 37.5%;
   font-size: 2rem;
 }
@@ -289,7 +289,7 @@ body {
 /*MEDIA QUERY BEGIN*/
 @media screen and (max-width: 480px) {
   .control .wrapper .aspect .header h3 {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   .control .wrapper .aspect .header p {
     font-size: 1.2rem;
@@ -326,7 +326,7 @@ body {
 }
 @media screen and (max-width: 320px) {
   .control .wrapper .aspect .header h3 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
   .control .wrapper .aspect .header p {
     font-size: 1rem;
