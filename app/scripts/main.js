@@ -77,7 +77,7 @@ function hideOverlay() {
 	'use strict';
 	setTimeout(function() {
 		$('.overlay').hide();
-	}, 3500);
+	}, 4000);
 }
 $(function() {
 	'use strict';
