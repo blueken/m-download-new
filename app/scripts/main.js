@@ -51,23 +51,23 @@ function weixinurl() {
 	}
 }
 
-function ios_weixin() {
+function iosWeixin() {
 	'use strict';
 	//deal ios weinxin cant open itunes.apple.com problem
 	if (isIOS() && isWeiXin()) {
-		$(".down_ios").on("click", function() {
+		$('.down_ios').on('click', function() {
 			$('.overlay').show();
 			return false;
 		});
-		$(".overlay").on("click",function() {
+		$('.overlay').on('click',function() {
 			$(this).hide();
 		});
 
-	};
+	}
 }
 $(function() {
 	'use strict';
     callfullpage();
     weixinurl();
-    ios_weixin();
+    iosWeixin();
 });
