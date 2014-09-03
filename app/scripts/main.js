@@ -65,9 +65,21 @@ function iosWeixin() {
 
 	}
 }
+
+function bindEvents() {
+	'use strict';
+
+	$(window).on('orientationchange', function() {
+		setTimeout(function() {
+			location.reload();
+		},300);
+	});
+
+}
 $(function() {
 	'use strict';
     callfullpage();
     weixinurl();
     iosWeixin();
+    bindEvents();
 });
