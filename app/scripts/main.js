@@ -8,8 +8,8 @@ function callfullpage() {
 		anchors: ['hjmdown', 'page2', 'page3', 'page4', 'page5'],
 		// loopBottom: true,
 		loopHorizontal: false,
-		slidesNavigation: true,
-		slidesNavPosition: 'top',
+		// slidesNavigation: true,
+		// slidesNavPosition: 'top',
 		scrollOverflow: bscroll,
 		// afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
 		// 	console.log(anchorLink, index, slideAnchor, slideIndex);
