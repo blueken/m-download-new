@@ -36,6 +36,9 @@ body {
   width: 100%;
   max-width: 640px;
 }
+.landscape {
+  visibility: hidden;
+}
 /*function begin*/
 /*function end*/
 /*full page css custom begin*/
