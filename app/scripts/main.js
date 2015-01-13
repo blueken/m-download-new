@@ -47,10 +47,24 @@ function weixinurl() {
 	'use strict';
 
 	if (!isWeiXin()) {
-		$('.down_and').each(function () {
-			var noWeixinUrl = $(this).attr('href-nowx');
-			$(this).attr('href', noWeixinUrl);
-		});
+		//not weixin
+		var source = getQueryString('source');
+		if (source) {
+			// source not empty
+			$('.down_and').each(function () {
+				var noWeixinUrl = $(this).attr('href-nowx');
+				$(this).attr('href', noWeixinUrl);
+			});
+		}
+		else {
+			//source empty
+			$('.down_and').each(function () {
+				var noSourceUrl = $(this).attr('href-nosource');
+				$(this).attr('href', noSourceUrl);
+			});
+		}
+
+
 	}
 }
 
